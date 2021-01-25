@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gugi';
+    src: url('Gugi-Regular.eot');
+    src: url('Gugi-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gugi-Regular.woff2') format('woff2'),
+        url('Gugi-Regular.woff') format('woff'),
+        url('Gugi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

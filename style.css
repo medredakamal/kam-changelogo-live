@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gugi", sans-serif;
+}
+body,
+html {
+  overflow: hidden;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  appearance: none;
+  border: 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+h2 {
+  margin-bottom: 2px;
+}
+
+.github-link {
+  background: #2d2d2d;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 0 0 15px 0;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.kamdevofficial img {
+  width: 270px;
+}
+
+.kamdevofficial {
+  margin: 0px 0 50px 0;
+  background: #f7ce20;
+}
+
+.logo {
+  margin: 50px 0;
+}
+
+.logo img {
+  min-height: 290px;
+  max-height: 290px;
+  min-width: 290px;
+  max-width: 290px;
+  object-fit: contain;
+}
+
+.change-logo {
+  height: 45px;
+  width: 215px;
+  text-align: center;
+  background: #f7ce20;
+  color: #333333;
+  font-weight: 700;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: transform cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    background-color 0.2s linear, color 0.2s linear;
+}
+
+.change-logo:active {
+  transform: scale(0.98);
+}
+
+.change-logo:hover {
+  background: #333333;
+  color: #f7ce20;
+}
+
+.alert {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 19px 0px;
+  position: fixed;
+  bottom: 0;
+  font-size: 16px;
+  min-height: 32px;
+  border-radius: 0px;
+  transition: opacity 0.5s ease-in-out;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.alert.error {
+  background: #fb3030;
+  color: #fff;
+}
+
+.alert.success {
+  background: #31c05c;
+  color: #fff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

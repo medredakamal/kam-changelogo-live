@@ -1,0 +1,18 @@
+@media (max-width: 786px) {
+  h2 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .github-link,
+  .change-logo {
+    font-size: 12px;
+  }
+  .logo img {
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+  }
+}

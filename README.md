@@ -4,4 +4,4 @@ You can use it right now on your project , hope that it will help you guys !
 
 Note : It's only JavaScript & CSS code, so if you are using it on a project, you may need to do some backend code . . . ( not a lot )
 
-Live Demo : https://medredakamal.github.io/changelogolive
+Live Link : https://medredakamal.github.io/changelogolive
